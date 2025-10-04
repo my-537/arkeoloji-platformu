@@ -21,8 +21,5 @@ arkeoloji-platformu/
  │         │    ├── UserPanel.js
  │         └── styles.css
  └── README.md
-git init
-git remote add origin https://github.com/my-537/arkeoloji-platformu.git
-git add .
-git commit -m "Arkeolojik veri platformu başlangıç"
-git push -u origin master
+
+
