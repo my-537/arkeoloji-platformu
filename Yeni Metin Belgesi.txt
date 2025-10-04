@@ -1,0 +1,28 @@
+arkeoloji-platformu/
+ ├── backend/
+ │    ├── app.py
+ │    ├── models.py
+ │    ├── ai/
+ │    │    ├── predict.py
+ │    │    └── model.pt
+ │    ├── database.db
+ ├── frontend/
+ │    ├── public/
+ │    │    └── index.html
+ │    └── src/
+ │         ├── App.js
+ │         ├── components/
+ │         │    ├── SearchBar.js
+ │         │    ├── EserList.js
+ │         │    ├── EserDetail.js
+ │         │    ├── UploadPhoto.js
+ │         │    ├── SergiList.js
+ │         │    ├── KaynakList.js
+ │         │    ├── UserPanel.js
+ │         └── styles.css
+ └── README.md
+git init
+git remote add origin https://github.com/my-537/arkeoloji-platformu.git
+git add .
+git commit -m "Arkeolojik veri platformu başlangıç"
+git push -u origin master
